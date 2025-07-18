@@ -1,23 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Project</title>
-  <style>
-    body { font-family: sans-serif; text-align: center; margin-top: 100px; }
-    button { padding: 10px 20px; font-size: 20px; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destroy the World</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <h1>Click to Destroy the World 🌍</h1>
-  <button id="boom">💥 Destroy</button>
-  <p id="count">Destructions: 0</p>
+  <button id="destroy-btn">DO IT</button>
 
-  <script>
-    let count = 0;
-    document.getElementById("boom").onclick = () => {
-      count++;
-      document.getElementById("count").innerText = "Destructions: " + count;
-    };
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
